@@ -1,0 +1,74 @@
+body{
+    color: black;
+    background-color: bisque;
+    font-family: arial;
+    font-size: 2em;
+}
+
+main{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:darkslategray;
+}
+
+#value{
+    font-size: 100px;
+    margin-bottom: 35px;
+}
+
+.container{
+    text-align: center;
+}
+
+.button-container{
+    margin-top: 35px;
+}
+
+button{
+    margin-right: 20px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgb(255, 142, 5);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    animation: anib infinite !important;
+}
+
+button:hover{
+    color: rgb(255, 142, 5);
+    background-color: rgba(128, 128, 128, 0);
+    border: 2px solid blue;
+    transition: 0.2s;
+    border-color:rgb(255, 142, 5);
+    font-size:28px;
+    
+}
+@keyframes anib{
+    0%{
+        color: black;
+    }
+    100%{
+        color: blue;
+    }
+  }
+
+.decrease:active{
+    background-color: red;
+}
+
+.reset:hover:active{
+    background-color: black;
+}
+
+.increase:hover:active{
+    background-color: greenyellow;
+}
